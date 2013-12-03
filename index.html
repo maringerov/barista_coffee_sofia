@@ -10,48 +10,40 @@
 	<title>Barista Coffee and more</title>
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link href='http://fonts.googleapis.com/css?family=Comfortaa:400,700,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/bootstrap.js"></script>
+
 </head>
 <body>
+<div class="container">
 <!-- NAVBAR -->
 	<div class="navbar-wrapper">
+		<div class="container">
+
+		<div class="navbar navbar-inverse navbar-static-top" role="navigation">
 		  <div class="container">
-
-			<div class="navbar navbar-inverse navbar-static-top" role="navigation">
-			  <div class="container">
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-				  <a class="navbar-brand" href="#">Project name</a>
-				</div>
-				<div class="navbar-collapse collapse">
-				  <ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-					  <ul class="dropdown-menu">
-						<li><a href="#">Action</a></li>
-						<li><a href="#">Another action</a></li>
-						<li><a href="#">Something else here</a></li>
-						<li class="divider"></li>
-						<li class="dropdown-header">Nav header</li>
-						<li><a href="#">Separated link</a></li>
-						<li><a href="#">One more separated link</a></li>
-					  </ul>
-					</li>
-				  </ul>
-				</div>
-			  </div>
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#"><span class="visible-xs"><img src="assets/svg/barista_logo_small.svg" alt="logo of Barista Coffee and more." id="logo-nav"></span><span class="hidden-xs">Barista Coffee and more</span></a>
 			</div>
-
+			<div class="navbar-collapse collapse">
+			  <ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#">начало</a></li>
+				<li><a href="#about">за нас</a></li>
+				<li><a href="#contact">специалитети</a></li>
+				<li><a href="#contact">локации</a></li>
+				<li><a href="#" class="dropdown-toggle" data-toggle="dropdown">контакт</a></li>
+			  </ul>
+			</div>
 		  </div>
+		</div>
+
+		</div>
 	</div>
 
 	<!-- Carousel
@@ -65,7 +57,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <img src="assets/images/menu_board.png" alt="First slide" style="max-width:none; max-height:100%;">
           <div class="container">
             <div class="carousel-caption">
               <h1>Example headline.</h1>
@@ -100,22 +92,53 @@
     </div><!-- /.carousel -->
 
 	<!-- Three rows main content -->
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2" id="greeting">Добре дошли в Barista Coffee and more! </div>
+	<div class="row main">
+		<div class="col-md-12" id="greeting">Добре дошли в Barista Coffee and more</div>
 	</div>
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
-			<div class="col-md-4">
-				div
-			</div>
-			<div class="col-md-4">
-				div
-			</div>
-			<div class="col-md-4">
-				div
-			</div>
+	<div class="row" id="three-cols">
+		<div class="col-md-4">
+			<h2>специалитети</h3>
+			<img src="assets/images/foam.png" alt="Specialty of the month." class="specials">
+		</div>
+		<div class="col-md-4">
+			<h2>за нас</h3>
+			<p class="about_us">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan justo id ornare tristique. Morbi eros tortor. Patruci cientremi ateroti</p>
+		</div>
+		<div class="col-md-4">
+			<h2>посети ни!</h3>
+			<img src="http://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=300x300&maptype=roadmap
+&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
+&markers=color:red%7Ccolor:red%7Clabel:C%7C40.718217,-73.998284&sensor=false" alt="A map with directions how to find our cafe in Sofia." class="map">
 		</div>
 	</div>
+	<div class="row final">
+		<div class="col-md-8">
+			<blockquote cite="Марин Геров">
+				<p class="quote">Най-доброто капучино в София, поднесено в уютна обстановка и с усмивка от любезния персонал!</p><br>
+				<small>Марин Геров</small>
+			</blockquote>
+		</div>
+		<div class="col-md-4">
+			<h2 class="contact_us">свържете се с нас!</h2>
+			<p>работно време:<br>
+			всеки ден, 07:00 - 20:00<br><br>
+			Т: (+359) 887 765 788<br>
+			E: hi@baristacoffeesofia.com</p><img src="http://placehold.it/50x50" alt="facebook icon">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 footer">
+			<img src="assets/svg/barista_coffee_logo.svg" alt="Logo of Barista Coffee and more.">
+			<p>&copy;2013 Barista Coffee and more. Designed by Sekwoia.</p>
+		</div>
+	</div>
+</div>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

@@ -5,9 +5,13 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  font-family: 'Comfortaa', cursive;
+  background: #240E00;
 }
 
+h1, h2, h3, h4, h5, h6 { font-family: 'Comfortaa', cursive; }
 
+h2, h3 { color: #FF6600; margin-bottom: 1.5em;}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -29,6 +33,7 @@ body {
 .navbar-wrapper .navbar {
   padding-left: 15px;
   padding-right: 15px;
+  background: #240E00;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -59,14 +64,50 @@ body {
 
 /*CUSTOM CONTENT*/
 
-#greeting {
-  font-size: 4em;
-  text-align: center;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-
+#logo-nav {
+  max-height: 10%;
 }
 
+.main {
+  margin: 3em 0;
+}
+
+#greeting {
+  font-size: 3.9em;
+  text-align: center;
+  border-top: 10px solid #FFF;
+  border-bottom: 10px solid #FFF;
+  font-weight: bold;
+  color: #FFF;
+}
+
+#three-cols {
+  text-align: center;
+}
+
+.specials,
+.map {
+  max-width: 70%; 
+  border-radius: 50%; 
+  border: 3px solid #5a5a5a;"
+}
+
+.about_us {
+  font-size: 2em;
+}
+
+.final {
+  margin: 5em 0;
+}
+
+.contact_us {
+  margin: 0 0 .5em 0;
+}
+
+.footer {
+  margin-top: 3em;
+  text-align: center;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
