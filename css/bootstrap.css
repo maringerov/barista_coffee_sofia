@@ -4428,7 +4428,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-left: -15px;
   }
   .navbar-collapse .navbar-nav.navbar-right:last-child {
-    margin-right: -15px;
+    margin-right: -30px;
   }
   .navbar-collapse .navbar-text:last-child {
     margin-right: 0;
@@ -4488,7 +4488,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-brand {
   float: left;
-  padding: 0px 15px;
+  padding: 0px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4500,7 +4500,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand {
-    margin-left: -15px;
+    margin-left: 0px;
   }
 }
 
@@ -4508,7 +4508,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   float: right;
   padding: 10px 10px;
-  margin-top: 8px;
+  margin-top: 20px;
   margin-right: 15px;
   margin-bottom: 8px;
   background-color: transparent;
@@ -4535,6 +4535,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-nav {
   margin: 7.5px -15px;
+  padding: 15px;
 }
 
 .navbar-nav > li > a {
@@ -4796,7 +4797,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
+  background-color: #000;
   border-color: #080808;
 }
 

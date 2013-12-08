@@ -1,10 +1,10 @@
+</div>
 	<div class="row">
 		<div class="col-sm-12 footer">
 			<img src="assets/svg/barista_coffee_logo.svg" alt="Logo of Barista Coffee and more.">
-			<p>&copy;<?php echo date('Y'); ?> Barista Coffee and more. Designed by Sekwoia.</p>
+			<p>&copy; <?php echo date('Y'); ?> Barista Coffee and more. Designed by Sekwoia.</p>
 		</div>
 	</div>
-</div>
 
 	<!-- Bootstrap core JavaScript
     ================================================== -->

@@ -14,12 +14,12 @@
 
 </head>
 <body>
-<div class="container">
-	<!-- NAVBAR -->
-		<div class="navbar-wrapper">
-			<div class="container">
 
-			<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+	<!-- NAVBAR -->
+	<!-- 	<div class="navbar-wrapper">
+			<div class="container"> -->
+
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			  <div class="container">
 				<div class="navbar-header">
 				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -28,19 +28,21 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				  </button>
-				  <a class="navbar-brand" href="#"><img src="assets/svg/barista_logo2.svg" alt="logo of Barista Coffee and more." id="logo-nav"></a>
+				  <a class="navbar-brand" href="#"><img src="assets/svg/barista_coffee_sofia.svg" alt="logo of Barista Coffee and more." id="logo-nav"></a>
 				</div>
 				<div class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav navbar-right">
-					<li <?php if ($section == "home") { echo 'class="active"'; } ?>><a href="#">начало</a></li>
-					<li <?php if ($section == "about") { echo 'class="active"'; } ?>><a href="#about">за нас</a></li>
-					<li <?php if ($section == "specials") { echo 'class="active"'; } ?>><a href="#contact">специалитети</a></li>
-					<li <?php if ($section == "locations") { echo 'class="active"'; } ?>><a href="#contact">локации</a></li>
-					<li <?php if ($section == "contact") { echo 'class="active"'; } ?>><a href="#" class="dropdown-toggle" data-toggle="dropdown">контакт</a></li>
+					<li <?php if ($section == "home") { echo 'class="active"'; } ?>><a href="index.php">начало</a></li>
+					<li <?php if ($section == "about") { echo 'class="active"'; } ?>><a href="about.php">за нас</a></li>
+					<li <?php if ($section == "specialties") { echo 'class="active"'; } ?>><a href="specialties.php">специалитети</a></li>
+					<li <?php if ($section == "locations") { echo 'class="active"'; } ?>><a href="locations.php">локации</a></li>
+					<li><a href="mailto:info@example.com">контакт</a></li>
 				  </ul>
 				</div>
 			  </div>
 			</div>
 
-			</div>
-		</div>
+			<!-- </div>
+		</div> -->
+
+	<!-- <div class="container"> -->

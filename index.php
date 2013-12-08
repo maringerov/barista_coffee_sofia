@@ -4,7 +4,7 @@ $section = "home";
 include('inc/header.php');
 
 ?>
-
+  <div class="container">
 	<!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
