@@ -28,7 +28,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				  </button>
-				  <a class="navbar-brand" href="#"><img src="assets/svg/barista_coffee_sofia.svg" alt="logo of Barista Coffee and more." id="logo-nav"></a>
+				  <a class="navbar-brand" href="index.php"><img src="assets/svg/barista_small_logo.svg" alt="logo of Barista Coffee and more." id="logo-nav"></a>
 				</div>
 				<div class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav navbar-right">
